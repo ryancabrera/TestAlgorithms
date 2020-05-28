@@ -23,6 +23,7 @@ class Solution(object):
                    if node not in color)
 
 
+
 def main():
     N = 4
     #dislikes = list()
