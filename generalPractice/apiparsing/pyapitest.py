@@ -15,10 +15,10 @@ def main():
         exit(1)
 
     json_response = response.json()
-    print(json_response)
+    #print(json_response)
     figure_out_this_object = json_print(json_response)
     #print(figure_out_this_object)
-    print(figure_out_this_object.index("people"))
+    print()
 
 
 def json_print(json_object):
